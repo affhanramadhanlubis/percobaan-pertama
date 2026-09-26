@@ -19,3 +19,8 @@ console.log(`
      /||||\\
     /_||||_\\
 `);
+console.log("saya affan saya sedang belajar coding");
+console.log(1000/7);
+console.log(20011+5113);
+console.log("tetaplah semangat jangan menyerah");
+console.log("terrus melangkah maju jangan pernah berhenti");
