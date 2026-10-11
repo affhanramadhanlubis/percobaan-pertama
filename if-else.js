@@ -42,3 +42,16 @@ if (gender == "laki-laki" && tinggibadan >=170) {
     console.log("tinggi kamu kurang bro");
 }
 //jika umur diatas 17 tahun boleh memiliki sim jika di bawah 17 tidak boleh memiliki sim tapi jika ia adalah pemain balap boleh memiliki sim
+const umur=17;
+const karakter ="guru";
+console.log("affan ",karakter, " dengan umur ", umur," tahun");
+if (karakter == "pemain balap") {
+    console.log("kamu boleh memiliki sim");
+}
+else if (umur >17) {
+    console.log("boleh memiliki sim");
+} else if (umur <=17) {
+    console.log("tidak boleh memiliki sim");
+} 
+//jika perempuan yg mendaftar masuk ke grup tari jika laki laki masuk ke grup bola apabila kelas 12 tolak pendaftaran
+//terif 1 jam pertama 5ribu,satu jam berikutnya *2ribu setiap jamdan jika parkir lebih= dari 5 jam di kasi diskon 10%
