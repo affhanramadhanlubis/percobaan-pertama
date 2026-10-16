@@ -55,3 +55,15 @@ else if (umur >17) {
 } 
 //jika perempuan yg mendaftar masuk ke grup tari jika laki laki masuk ke grup bola apabila kelas 12 tolak pendaftaran
 //terif 1 jam pertama 5ribu,satu jam berikutnya *2ribu setiap jamdan jika parkir lebih= dari 5 jam di kasi diskon 10%
+const kelamin ="perempuan";
+const kelas=10;
+console.log(" affan ",kelamin, "dengan kelas", kelas,);
+if (kelas >12) {
+    console.log("tidak boleh mendaftar");
+} else if ( kelamin == "laki laki") {
+    console.log("siswa masuk ke grup bola");
+} else if (kelamin == "perempuan") {
+    console.log("siswa masuk ke grup tari");
+}
+//jawaban soal ke dua
+const jamparkir = 6;
