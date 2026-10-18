@@ -1,0 +1,1 @@
+//terif 1 jam pertama 5ribu,satu jam berikutnya *2ribu setiap jamdan jika parkir lebih= dari 5 jam di kasi diskon 10%

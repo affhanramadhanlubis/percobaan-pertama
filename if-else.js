@@ -55,15 +55,26 @@ else if (umur >17) {
 } 
 //jika perempuan yg mendaftar masuk ke grup tari jika laki laki masuk ke grup bola apabila kelas 12 tolak pendaftaran
 //terif 1 jam pertama 5ribu,satu jam berikutnya *2ribu setiap jamdan jika parkir lebih= dari 5 jam di kasi diskon 10%
+//Jika suhu lebih dari 30, tampilkan Panas. Jika 20–30, tampilkan Normal. Jika kurang dari 20, tampilkan Dingin.
+//jawaban soal pertama
 const kelamin ="perempuan";
-const kelas=10;
+const kelas=12;
 console.log(" affan ",kelamin, "dengan kelas", kelas,);
-if (kelas >12) {
+if (kelas >=12) {
     console.log("tidak boleh mendaftar");
 } else if ( kelamin == "laki laki") {
     console.log("siswa masuk ke grup bola");
 } else if (kelamin == "perempuan") {
     console.log("siswa masuk ke grup tari");
 }
+//jawaban soal ke tiga
+const suhu =19;
+console.log("suhu")
+if ( suhu >30) {
+    console.log("cuaca panas");
+} else if ( suhu >=20) {
+    console.log("cuaca normal");
+} else if ( suhu <20) {
+    console.log("cuaca dingin")
+}
 //jawaban soal ke dua
-const jamparkir = 6;
