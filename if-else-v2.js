@@ -1,5 +1,5 @@
 // Sebuah tempat parkir memiliki tarif 1 jam pertama 5ribu, satu jam berikutnya *2ribu setiap jam, dan jika parkir lebih dari 5 jam diberikan diskon 10%
-
+console.log("=============Latihan 1==============");
 const tarif_1 = 5000; // nilai pasti dari soal
 const tarif_2 = 2000; // nilai pasti dari soal
 const discount = 10;
@@ -29,7 +29,6 @@ if (hour <= 1) {
   console.log("Total Biaya parkir: ", pay);
   console.log("Kamu dapat discount, jadi hanya perlu bayar: ", after_discount);
 }
-
 /**
  * 5 jam
  *
@@ -41,3 +40,6 @@ if (hour <= 1) {
  * 1 jam berikutnya 2000
  *
  */
+
+console.log("\n=============Latihan 2============");
+// latihan 2: bikin system login sekeloh
