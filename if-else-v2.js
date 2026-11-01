@@ -87,3 +87,37 @@ console.log("=============SOAL 1=============");
  * Jika total belanja kurang dari Rp300.000, tidak mendapat diskon.
  * Dan Jika pelanggan memiliki kartu member, maka diskon akan ditambah 5% dari total belanja.
  */
+const total_belanja =4000000;
+const is_member=true;
+console.log("belanja",total_belanja);
+let besar_diskon=0;
+let yg_harus_dibayar=0;
+let tambahan_diskon=0;
+if (is_member == true ) {
+  tambahan_diskon=5;
+}
+if(total_belanja >=500000) {
+  //a=totalbelanja*20/100
+  //b=totalbelanja-a
+besar_diskon=total_belanja*(20+tambahan_diskon)/100;
+yg_harus_dibayar=total_belanja-besar_diskon;
+} else if(total_belanja >=300000) {
+  besar_diskon=total_belanja*(10+tambahan_diskon)/100;
+  yg_harus_dibayar=total_belanja-besar_diskon;
+
+} else if(total_belanja <300000) {
+ besar_diskon=total_belanja*(0+tambahan_diskon)/100;
+  yg_harus_dibayar=total_belanja-besar_diskon;
+}
+console.log("kamu bayar",yg_harus_dibayar);
+
+
+
+
+
+
+
+
+
+
+
