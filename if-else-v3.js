@@ -79,8 +79,8 @@ const pembeli = {
   nama:"budi",
   umur:17,
   member:"ya",
-  hari:"sabtu",
-  jumlah_tiket:2,
+  hari:"wednesday",
+  jumlah_tiket:4,
 }
 const harga_tiket_normal = 50000;
 let harga_tiket =0;
@@ -102,7 +102,7 @@ total_pembayaran =harga_tiket-total_diskon;
   total_diskon =0;
   if (pembeli.member =="ya") {
     total_diskon =harga_tiket*10/100;
-  }
+}
 biaya_admin =0;
 total_pembayaran =harga_tiket-total_diskon;
 }
@@ -110,4 +110,14 @@ console.log(pembeli);
 console.log("Harga tiket: Rp",harga_tiket);
 console.log("Total diskon: Rp",total_diskon);
 console.log("Biaya admin: Rp",biaya_admin);
+console.log("total pembayaran saat ini",total_pembayaran)
+if (pembeli.hari =="wednesday") {
+  total_pembayaran =total_pembayaran-(10000*pembeli.jumlah_tiket);
+}
+if (pembeli.jumlah_tiket >3) {
+  biaya_admin =5000
+  total_pembayaran =total_pembayaran+biaya_admin;
+
+}
+console.log("biaya admin sebenarnya",biaya_admin);
 console.log("Total pembayaran: Rp",total_pembayaran);
